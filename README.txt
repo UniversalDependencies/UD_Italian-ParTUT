@@ -1,7 +1,7 @@
 === Machine-readable metadata =================================================
 Documentation status: partial
 Data source: automatic
-Data available since: UD v1.4
+Data available since: UD v2.0
 License: CC BY-SA 4.0
 Genre: news
 Contributors: Sanguinetti, Manuela
