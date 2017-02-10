@@ -695,7 +695,7 @@
 30	per	per	ADP	E	_	29	fixed	_	_
 31	sé	sé	PRON	PE	PronType=Prs	29	fixed	_	_
 32	ed	e	CCONJ	CC	_	33	cc	_	_
-33	indipendentemente	indipendentemente	ADV	B	_	30	conj	_	_
+33	indipendentemente	indipendentemente	ADV	B	_	29	conj	_	_
 34-35	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 34	da	da	ADP	E	_	36	case	_	_
 35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
