@@ -19490,7 +19490,7 @@
 14	analoghe	analogo	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	19	punct	_	_
 16	ma	ma	CCONJ	CC	_	19	cc	_	_
-17	ben	bene	ADV	B	_	16	advmod	_	_
+17	ben	bene	ADV	B	_	18	advmod	_	_
 18	più	più	ADV	B	_	19	advmod	_	_
 19	sofisticate	sofisticato	ADJ	A	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	11	punct	_	_
