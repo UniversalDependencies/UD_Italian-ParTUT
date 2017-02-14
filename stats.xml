@@ -21,11 +21,11 @@
     <tag name="NOUN">11543</tag><!-- opera, anno, parte, commissione, diritto, programma, lavoro, paese, stato, membro -->
     <tag name="NUM">812</tag><!-- due, 1, tre, 6, quattro, 2000, 1999, cinque, 3, 18 -->
     <tag name="PRON">1798</tag><!-- che, si, cui, ci, quello, lo, questo, altro, esso, ciò -->
-    <tag name="PROPN">2087</tag><!-- Shakespeare, Balzac, Facebook, Europa, Ucraina, Pericle, Stati, Uniti, Europea, Unione -->
+    <tag name="PROPN">2086</tag><!-- Shakespeare, Balzac, Facebook, Europa, Ucraina, Pericle, Stati, Uniti, Europea, Unione -->
     <tag name="PUNCT">5467</tag><!-- ,, ., ", -, (, ), ;, :, /, ? -->
     <tag name="SCONJ">672</tag><!-- che, se, quando, come, perché, mentre, sebbene, affinché, dopo, poiché -->
     <tag name="SYM">36</tag><!-- % -->
-    <tag name="VERB">4723</tag><!-- avere, fare, essere, scrivere, considerare, dare, rappresentare, tenere, creare, presentare -->
+    <tag name="VERB">4724</tag><!-- avere, fare, essere, scrivere, considerare, dare, rappresentare, tenere, creare, presentare -->
     <tag name="X">20</tag><!-- a, b, °, Fille, Or, X, Yeux, c, capite, f -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -39,13 +39,13 @@
     <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">13357</feat><!-- il, i, un, gli, lo, suo, questo, stato, stati, anni -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">190</feat><!-- potrebbe, dovrebbero, dovrebbe, sarebbe, vorrei, avrebbe, potrebbero, avrebbero, sarebbero, dovremmo -->
     <feat name="Mood" value="Imp" upos="VERB">23</feat><!-- clicca, Condividi, Scegli, assicura, Connetti, Fat, Immaginate, Permettete, Promuovi, Scopri -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">3035</feat><!-- è, sono, ha, hanno, era, può, fu, possono, erano, deve -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">3036</feat><!-- è, sono, ha, hanno, era, può, fu, possono, erano, deve -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">274</feat><!-- sia, siano, abbia, venga, possa, fosse, debba, fossero, possano, vengano -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">9430</feat><!-- i, le, gli, sono, hanno, stati, anni, opere, altri, tutti -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">21001</feat><!-- il, la, l', un, è, una, ha, lo, sua, suo -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">21002</feat><!-- il, la, l', un, è, una, ha, lo, sua, suo -->
     <feat name="NumType" value="Card" upos="NUM">812</feat><!-- due, 1, tre, 6, quattro, 2000, 1999, cinque, 3, 18 -->
     <feat name="NumType" value="Ord" upos="ADJ,PRON">218</feat><!-- primo, prima, ultimi, prime, terzo, ultima, primi, seconda, secondo, ultime -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">434</feat><!-- ci, mi, noi, siamo, vorrei, abbiamo, ho, io, stiamo, credo -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">435</feat><!-- ci, mi, noi, siamo, vorrei, abbiamo, ho, io, stiamo, credo -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">202</feat><!-- puoi, vi, ti, te, tu, ricevi, devi, hai, clicca, voi -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">3600</feat><!-- è, si, sono, ha, hanno, era, sia, lo, può, fu -->
     <feat name="Poss" value="Yes" upos="DET,PRON">558</feat><!-- sua, suo, loro, sue, suoi, mio, nostro, proprio, nostra, tuo -->
@@ -61,27 +61,27 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">138</feat><!-- sarà, potrà, saranno, dovrà, potranno, avrà, continuerà, verrà, avrò, avranno -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">313</feat><!-- era, erano, aveva, fosse, fossero, avesse, avevano, facevano, venivano, avevamo -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1970</feat><!-- stato, fu, stati, stata, scrisse, furono, considerato, fatto, state, dato -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">2796</feat><!-- è, sono, ha, hanno, sia, può, possono, deve, potrebbe, dovrebbero -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3522</feat><!-- è, sono, ha, hanno, era, sia, può, fu, possono, erano -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">2797</feat><!-- è, sono, ha, hanno, sia, può, possono, deve, potrebbe, dovrebbero -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3523</feat><!-- è, sono, ha, hanno, era, sia, può, fu, possono, erano -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">173</feat><!-- essendo, facendo, cercando, creando, sostenendo, tenendo, aumentando, considerando, incoraggiando, passando -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1376</feat><!-- essere, far, fare, garantire, migliorare, creare, aver, fornire, aumentare, avere -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">1696</feat><!-- stato, stati, stata, considerato, fatto, state, dato, potuto, avuto, concernente -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
-    <dep name="acl">787</dep>
+    <dep name="acl">788</dep>
     <dep name="acl:relcl">531</dep>
-    <dep name="advcl">701</dep>
+    <dep name="advcl">702</dep>
     <dep name="advmod">1826</dep>
     <dep name="amod">3602</dep>
-    <dep name="appos">71</dep>
+    <dep name="appos">74</dep>
     <dep name="aux">936</dep>
     <dep name="aux:pass">521</dep>
     <dep name="case">8189</dep>
     <dep name="cc">1684</dep>
-    <dep name="ccomp">346</dep>
+    <dep name="ccomp">347</dep>
     <dep name="compound">186</dep>
-    <dep name="conj">1953</dep>
+    <dep name="conj">1952</dep>
     <dep name="cop">585</dep>
     <dep name="csubj">99</dep>
     <dep name="csubj:pass">12</dep>
@@ -94,24 +94,24 @@
     <dep name="expl:impers">62</dep>
     <dep name="expl:pass">2</dep>
     <dep name="fixed">178</dep>
-    <dep name="flat">64</dep>
+    <dep name="flat">76</dep>
     <dep name="flat:foreign">3</dep>
-    <dep name="flat:name">378</dep>
+    <dep name="flat:name">366</dep>
     <dep name="goeswith">3</dep>
     <dep name="iobj">82</dep>
     <dep name="mark">1377</dep>
-    <dep name="nmod">5002</dep>
+    <dep name="nmod">4998</dep>
     <dep name="nsubj">2036</dep>
     <dep name="nsubj:pass">453</dep>
-    <dep name="nummod">618</dep>
+    <dep name="nummod">598</dep>
     <dep name="obj">2027</dep>
-    <dep name="obl">3118</dep>
+    <dep name="obl">3138</dep>
     <dep name="obl:agent">184</dep>
     <dep name="orphan">8</dep>
-    <dep name="parataxis">15</dep>
+    <dep name="parataxis">16</dep>
     <dep name="punct">5466</dep>
     <dep name="root">2090</dep>
     <dep name="vocative">70</dep>
-    <dep name="xcomp">459</dep>
+    <dep name="xcomp">457</dep>
   </deps>
 </treebank>

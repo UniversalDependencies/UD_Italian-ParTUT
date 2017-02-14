@@ -72,7 +72,7 @@
 # sent_id = it_partut-ud-15
 # text = Attribuzione, Condividi allo stesso modo.
 1	Attribuzione	attribuzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	3	punct	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
 3	Condividi	condividere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	flat	_	_
 4-5	allo	_	_	_	_	_	_	_	_
 4	a	a	ADP	E	_	7	case	_	_
@@ -1618,8 +1618,8 @@
 1	Onorevole	onorevole	NOUN	S	Number=Sing	8	vocative	_	_
 2	Plooj	Plooj	PROPN	SP	_	1	flat	_	SpaceAfter=No
 3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
-4	van	van	PROPN	SP	_	3	flat:name	_	_
-5	Gorsel	Gorsel	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+4	van	van	PROPN	SP	_	1	flat	_	_
+5	Gorsel	Gorsel	PROPN	SP	_	1	flat	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	1	punct	_	_
 7	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8-9	risponderle	_	_	_	_	_	_	_	_
@@ -1790,7 +1790,7 @@
 4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	onorevole	onorevole	NOUN	S	Number=Sing	11	nsubj	_	_
 6	Díez	Díez	PROPN	SP	_	5	flat	_	_
-7	González	González	PROPN	SP	_	6	flat:name	_	_
+7	González	González	PROPN	SP	_	5	flat	_	_
 8	e	e	CCONJ	CC	_	9	cc	_	_
 9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	conj	_	_
 10	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
@@ -2081,7 +2081,7 @@
 7	parlamento	parlamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	per	per	ADP	E	_	10	mark	_	_
-10	ascoltare	ascoltare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	ascoltare	ascoltare	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	12	punct	_	_
 12	discutere	discutere	VERB	V	VerbForm=Inf	10	conj	_	_
 13	e	e	CCONJ	CC	_	14	cc	_	_
@@ -3513,7 +3513,7 @@
 # sent_id = it_partut-ud-241
 # text = Ma, onorevoli deputati, la sicurezza è un obiettivo prioritario della commissione.
 1	Ma	ma	CCONJ	CC	_	10	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	10	punct	_	_
 3	onorevoli	onorevole	ADJ	A	Number=Plur	4	amod	_	_
 4	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	10	vocative	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	4	punct	_	_
@@ -5125,7 +5125,7 @@
 22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	partito	partito	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	FF	_	26	punct	_	_
+25	,	,	PUNCT	FF	_	20	punct	_	_
 26	Hague	Hague	PROPN	SP	_	20	appos	_	SpaceAfter=No
 27	,	,	PUNCT	FF	_	26	punct	_	_
 28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
@@ -5148,9 +5148,9 @@
 43	di	di	ADP	E	_	45	case	_	_
 44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	commissario	commissario	NOUN	S	Number=Sing	42	nmod	_	_
-46	Wulf	Wulf	PROPN	SP	_	45	flat:name	_	_
-47	-	-	PUNCT	FF	_	46	punct	_	_
-48	Mathies	Mathies	PROPN	SP	_	46	flat:name	_	_
+46	Wulf	Wulf	PROPN	SP	_	45	flat	_	_
+47	-	-	PUNCT	FF	_	45	punct	_	_
+48	Mathies	Mathies	PROPN	SP	_	45	flat	_	_
 49-50	sui	_	_	_	_	_	_	_	_
 49	su	su	ADP	E	_	51	case	_	_
 50	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
@@ -5603,10 +5603,10 @@
 35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 36	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
 37	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	FF	_	39	punct	_	_
+38	,	,	PUNCT	FF	_	33	punct	_	_
 39	onorevole	onorevole	NOUN	S	Number=Sing	33	appos	_	_
 40	Elisabeth	Elisabeth	PROPN	SP	_	39	flat	_	_
-41	Schroedter	Schroedter	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+41	Schroedter	Schroedter	PROPN	SP	_	39	flat	_	SpaceAfter=No
 42	,	,	PUNCT	FF	_	39	punct	_	_
 43	di	di	ADP	E	_	44	mark	_	_
 44	approdare	approdare	VERB	V	VerbForm=Inf	26	acl	_	_
@@ -6030,16 +6030,16 @@
 10	attuati	attuare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
 11	fra	fra	ADP	E	_	13	case	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	1989	1989	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+13	1989	1989	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	FF	_	16	punct	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	1993	1993	NUM	N	NumType=Card	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	19	punct	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	1994	1994	NUM	N	NumType=Card	16	conj	_	_
+19	1994	1994	NUM	N	NumType=Card	13	conj	_	_
 20	e	e	CCONJ	CC	_	22	cc	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	1999	1999	NUM	N	NumType=Card	16	conj	_	_
+22	1999	1999	NUM	N	NumType=Card	13	conj	_	_
 23	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
 25	a	a	ADP	E	_	26	mark	_	_
@@ -6101,7 +6101,7 @@
 77	operare	operare	VERB	V	VerbForm=Inf	59	ccomp	_	_
 78	con	con	ADP	E	_	79	case	_	_
 79	successo	successo	NOUN	S	Gender=Masc|Number=Sing	77	obl	_	_
-80	sia	sia	CCONJ	CC	_	91	cc	_	_
+80	sia	sia	CCONJ	CC	_	84	cc	_	_
 81-82	nella	_	_	_	_	_	_	_	_
 81	in	in	ADP	E	_	84	case	_	_
 82	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
@@ -15355,11 +15355,11 @@
 4	Hyacinthe	Hyacinthe	PROPN	SP	_	12	nsubj	_	_
 5	de	de	ADP	E	_	4	flat:name	_	_
 6	Latouche	Latouche	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
-7	,	,	PUNCT	FF	_	8	punct	_	_
+7	,	,	PUNCT	FF	_	4	punct	_	_
 8	amico	amico	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
 9	di	di	ADP	E	_	10	case	_	_
 10	Balzac	Balzac	PROPN	SP	_	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	FF	_	4	punct	_	_
+11	,	,	PUNCT	FF	_	8	punct	_	_
 12	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	certa	certo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
@@ -15779,7 +15779,7 @@
 # text = Dopo il 1610, Shakespeare scrisse poche opere teatrali, e nessuna di queste è attribuita a lui dopo il 1613.
 1	Dopo	dopo	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1610	1610	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+3	1610	1610	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	Shakespeare	Shakespeare	PROPN	SP	_	6	nsubj	_	_
 6	scrisse	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -15797,7 +15797,7 @@
 18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
 19	dopo	dopo	ADP	E	_	21	case	_	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	1613	1613	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+21	1613	1613	NUM	N	NumType=Card	16	obl	_	SpaceAfter=No
 22	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = it_partut-ud-1894

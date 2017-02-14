@@ -1471,7 +1471,7 @@
 9	-	-	PUNCT	FF	_	12	punct	_	_
 10	e	e	CCONJ	CC	_	12	cc	_	_
 11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
-12	convinto	convincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+12	convinto	convincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
 13	che	che	SCONJ	CS	_	17	mark	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
@@ -1483,7 +1483,7 @@
 21	-	-	PUNCT	FF	_	12	punct	_	_
 22	di	di	ADP	E	_	23	mark	_	_
 23-24	adoperarsi	_	_	_	_	_	_	_	_
-23	adoperar	adoperare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+23	adoperar	adoperare	VERB	V	VerbForm=Inf	5	xcomp	_	_
 24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
 25	affinché	affinché	SCONJ	CS	_	27	mark	_	_
 26	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
@@ -2160,7 +2160,7 @@
 # text = Il relatore, onorevole Koch, al quale esprimiamo la nostra gratitudine per il lavoro svolto, ha fatto rilevare che avrebbero già potuto essere compiuti alcuni progressi se non si fossero verificati ritardi nei lavori del CEN dovuti alla lentezza nell'elaborazione e nel ravvicinamento della direttiva.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	relatore	relatore	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	FF	_	4	punct	_	_
+3	,	,	PUNCT	FF	_	2	punct	_	_
 4	onorevole	onorevole	NOUN	S	Number=Sing	2	appos	_	_
 5	Koch	Koch	PROPN	SP	_	4	flat	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	4	punct	_	_
@@ -3861,7 +3861,7 @@
 15	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 16	tra	tra	ADP	E	_	18	case	_	_
 17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	8	8	NUM	N	NumType=Card	15	nummod	_	_
+18	8	8	NUM	N	NumType=Card	15	obl	_	_
 19	e	e	CCONJ	CC	_	22	cc	_	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	12	12	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
@@ -4957,7 +4957,7 @@
 # text = per il 2005 sono previste altre 18 azioni, promosse dagli stati membri e dalla commissione.
 1	per	per	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	2005	2005	NUM	N	NumType=Card	5	nummod	_	_
+3	2005	2005	NUM	N	NumType=Card	5	obl	_	_
 4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	previste	prevedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 6	altre	altro	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
@@ -6153,7 +6153,7 @@
 7-8	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
 7	dir	dire	VERB	V	VerbForm=Inf	6	csubj	_	_
 8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-9	,	,	PUNCT	FF	_	12	punct	_	_
+9	,	,	PUNCT	FF	_	6	punct	_	_
 10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
 12	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6343,14 +6343,14 @@
 3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
 4	che	che	SCONJ	CS	_	11	mark	_	_
 5	altrove	altrove	ADV	B	_	11	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	FF	_	11	punct	_	_
+6	,	,	PUNCT	FF	_	5	punct	_	_
 7	su	su	ADP	E	_	9	case	_	_
 8	altri	altro	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
 9	pianeti	pianeta	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
-10	,	,	PUNCT	FF	_	11	punct	_	_
+10	,	,	PUNCT	FF	_	9	punct	_	_
 11	esistano	esistere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
 12	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
-13	,	,	PUNCT	FF	_	14	punct	_	_
+13	,	,	PUNCT	FF	_	11	punct	_	_
 14	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -8236,7 +8236,7 @@
 17	annuale	annuale	ADJ	A	Number=Sing	16	amod	_	_
 18	entro	entro	ADP	E	_	20	case	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	2020	2020	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+20	2020	2020	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	10	punct	_	_
 
 # sent_id = it_partut-ud-1075
@@ -8832,7 +8832,7 @@
 33	raddoppiata	raddoppiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
 34	tra	tra	ADP	E	_	36	case	_	_
 35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	1980	1980	NUM	N	NumType=Card	33	nummod	_	_
+36	1980	1980	NUM	N	NumType=Card	33	obl	_	_
 37	e	e	CCONJ	CC	_	39	cc	_	_
 38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	2006	2006	NUM	N	NumType=Card	36	conj	_	SpaceAfter=No
@@ -10624,7 +10624,7 @@
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
 11	Vladimir	Vladimir	PROPN	SP	_	10	flat	_	_
-12	Putin	Putin	PROPN	SP	_	11	flat:name	_	_
+12	Putin	Putin	PROPN	SP	_	10	flat	_	_
 13	per	per	ADP	E	_	14	mark	_	_
 14	garantire	garantire	VERB	V	VerbForm=Inf	6	advcl	_	_
 15	che	che	SCONJ	CS	_	20	mark	_	_
@@ -10891,7 +10891,7 @@
 # sent_id = it_partut-ud-1179
 # text = E, naturalmente, le smisurate garanzie pubbliche della Cina, pari a 3.800 miliardi di dollari in riserve di valuta estera, offrono un'ampia assicurazione in caso di contagio finanziario.
 1	E	e	CCONJ	CC	_	25	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	25	punct	_	_
 3	naturalmente	naturalmente	ADV	B	_	25	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -10967,7 +10967,7 @@
 # sent_id = it_partut-ud-1181
 # text = Eppure, persiste una superficiale fissazione sulla crescita del PIL nominale della Cina, e ciò fa sì che un rallentamento del 25%, equivalente a un tasso annuo del 7-8%, sia percepito come il segnale della fine del più eclatante percorso di sviluppo del mondo moderno.
 1	Eppure	eppure	CCONJ	CC	_	3	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	3	punct	_	_
 3	persiste	persistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	superficiale	superficiale	ADJ	A	Number=Sing	6	amod	_	_
@@ -11294,7 +11294,7 @@
 # sent_id = it_partut-ud-1191
 # text = E, dal canto suo, la Cina si è affidata al dollaro per ancorare la propria moneta deprezzata, diventando così più competitiva nelle esportazioni.
 1	E	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	12	punct	_	_
 3-4	dal	_	_	_	_	_	_	_	_
 3	da	da	ADP	E	_	5	case	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -11459,7 +11459,7 @@
 # sent_id = it_partut-ud-1196
 # text = E, proprio come avrebbe previsto uno psicologo, uno dei partner, la Cina, ha deciso di andare per la sua strada.
 1	E	e	CCONJ	CC	_	19	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	19	punct	_	_
 3	proprio	proprio	ADV	B	_	6	advmod	_	_
 4	come	come	SCONJ	CS	_	6	mark	_	_
 5	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -11914,7 +11914,7 @@
 # sent_id = it_partut-ud-1217
 # text = E, malgrado uno sconcertante calo della percentuale di reddito della manodopera negli ultimi decenni, il quadro di lungo termine sfida ancora la previsione di Marx secondo cui il capitalismo impoverirebbe i lavoratori.
 1	E	e	CCONJ	CC	_	25	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	25	punct	_	_
 3	malgrado	malgrado	ADP	E	_	6	case	_	_
 4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	sconcertante	sconcertante	ADJ	A	Number=Sing	6	amod	_	_
@@ -13769,7 +13769,7 @@
 11	da	da	ADP	E	_	12	case	_	_
 12	Stephen	Stephen	PROPN	SP	_	10	obl:agent	_	_
 13	Kennedy	Kennedy	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
-14	,	,	PUNCT	FF	_	15	punct	_	_
+14	,	,	PUNCT	FF	_	12	punct	_	_
 15	membro	membro	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
 16-17	del	_	_	_	_	_	_	_	_
 16	di	di	ADP	E	_	20	case	_	_
@@ -14545,7 +14545,7 @@
 # sent_id = it_partut-ud-1320
 # text = Ma, senza un forte sostegno interno per il cambiamento, l'impatto di tali incontri è limitato.
 1	Ma	ma	CCONJ	CC	_	18	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	18	punct	_	_
 3	senza	senza	ADP	E	_	6	case	_	_
 4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	forte	forte	ADJ	A	Number=Sing	6	amod	_	_
@@ -14706,7 +14706,7 @@
 34	%	%	SYM	X	_	30	obl	_	_
 35	entro	entro	ADP	E	_	37	case	_	_
 36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	2050	2050	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+37	2050	2050	NUM	N	NumType=Card	30	obl	_	SpaceAfter=No
 38	,	,	PUNCT	FF	_	43	punct	_	_
 39	nonché	nonché	CCONJ	CC	_	43	cc	_	_
 40-41	della	_	_	_	_	_	_	_	_
@@ -14812,7 +14812,7 @@
 # text = Tra il 1960 e il 2010, la percentuale di adulti con un livello d'istruzione secondaria è passata dal 20% a ben l'87%.
 1	Tra	tra	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1960	1960	NUM	N	NumType=Card	19	nummod	_	_
+3	1960	1960	NUM	N	NumType=Card	19	obl	_	_
 4	e	e	CCONJ	CC	_	6	cc	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	2010	2010	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
@@ -16320,7 +16320,7 @@
 6	invece	invece	ADV	B	_	8	advmod	_	_
 7	voler	volere	AUX	VM	VerbForm=Inf	8	aux	_	_
 8	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
-9	favorire	favorire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+9	favorire	favorire	VERB	V	VerbForm=Inf	8	ccomp	_	_
 10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
 12-13	delle	_	_	_	_	_	_	_	_
@@ -17165,7 +17165,7 @@
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
 20	Barack	Barack	PROPN	SP	_	19	flat	_	_
-21	Obama	Obama	PROPN	SP	_	20	flat:name	_	_
+21	Obama	Obama	PROPN	SP	_	19	flat	_	_
 22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
 23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -17605,7 +17605,7 @@
 # sent_id = it_partut-ud-1430
 # text = Ma, se il pensiero di Marx secondo cui il capitale e la forza lavoro sarebbero stati elementi sostitutivi e non complementari era sicuramente errato ai suoi tempi e nel corso del secolo successivo, oggi potrebbe non essere più sbagliato.
 1	Ma	ma	CCONJ	CC	_	44	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	44	punct	_	_
 3	se	se	SCONJ	CS	_	25	mark	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
@@ -18341,7 +18341,7 @@
 # sent_id = it_partut-ud-1461
 # text = Eppure, mentre gli ucraini lavorano per ricostruire il nostro paese dopo il governo predatorio di Viktor Yanukovych, affrontiamo una nuova minaccia, sotto - forma di "offensiva di pace" - un vecchio fondamento della diplomazia sovietica ideata per minare le decisioni dell'occidente.
 1	Eppure	eppure	CCONJ	CC	_	20	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	20	punct	_	_
 3	mentre	mentre	SCONJ	CS	_	6	mark	_	_
 4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	ucraini	ucraino	ADJ	A	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -18404,14 +18404,14 @@
 6	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
 7	russo	russo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
 8	Vladimir	Vladimir	PROPN	SP	_	6	flat	_	_
-9	Putin	Putin	PROPN	SP	_	8	flat:name	_	_
+9	Putin	Putin	PROPN	SP	_	6	flat	_	_
 10-11	al	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	12	case	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
 13	americano	americano	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
 14	Barack	Barack	PROPN	SP	_	12	flat	_	_
-15	Obama	Obama	PROPN	SP	_	14	flat:name	_	_
+15	Obama	Obama	PROPN	SP	_	12	flat	_	_
 16	per	per	ADP	E	_	17	mark	_	_
 17	riaccendere	riaccendere	VERB	V	VerbForm=Inf	3	acl	_	_
 18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -19031,7 +19031,7 @@
 # sent_id = it_partut-ud-1488
 # text = E, con l'aiuto e l'assistenza tecnica dell'Europa, ne creeremo uno.
 1	E	e	CCONJ	CC	_	15	cc	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
+2	,	,	PUNCT	FF	_	15	punct	_	_
 3	con	con	ADP	E	_	5	case	_	_
 4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
@@ -22553,7 +22553,7 @@
 # sent_id = it_partut-ud-1635
 # text = "Sto per diventare un genio.
 1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
-2	Sto	Sto	PROPN	SP	_	0	root	_	_
+2	Sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	per	per	ADP	E	_	4	mark	_	_
 4	diventare	diventare	VERB	V	VerbForm=Inf	2	xcomp	_	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -23346,10 +23346,10 @@
 48	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
 50	,	,	PUNCT	FF	_	49	punct	_	_
-51	Marie	Marie	PROPN	SP	_	49	nmod	_	_
+51	Marie	Marie	PROPN	SP	_	49	appos	_	_
 52	-	-	PUNCT	FF	_	51	punct	_	_
 53	Caroline	Caroline	PROPN	SP	_	51	flat:name	_	SpaceAfter=No
-54	,	,	PUNCT	FF	_	49	punct	_	_
+54	,	,	PUNCT	FF	_	51	punct	_	_
 55	avuta	avere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	49	acl	_	_
 56-57	dalla	_	_	_	_	_	_	_	_
 56	da	da	ADP	E	_	59	case	_	_
@@ -23361,7 +23361,7 @@
 62	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
 63	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	60	obl	_	SpaceAfter=No
 64	,	,	PUNCT	FF	_	59	punct	_	_
-65	Maria	Maria	PROPN	SP	_	59	nmod	_	_
+65	Maria	Maria	PROPN	SP	_	59	appos	_	_
 66	Du	Du	PROPN	SP	_	65	flat:name	_	_
 67	Fresnay	Fresnay	PROPN	SP	_	65	flat:name	_	SpaceAfter=No
 68	.	.	PUNCT	FS	_	9	punct	_	_
@@ -26840,7 +26840,7 @@
 # text = Tra il 1585 e il 1592, iniziò una carriera di successo a Londra come attore, scrittore, comproprietario di una compagnia teatrale chiamata the Lord Chamberlain's Men, poi denominata the King's Men.
 1	Tra	tra	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1585	1585	NUM	N	NumType=Card	8	nummod	_	_
+3	1585	1585	NUM	N	NumType=Card	8	obl	_	_
 4	e	e	CCONJ	CC	_	6	cc	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	1592	1592	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
@@ -26969,7 +26969,7 @@
 6-7	al	_	_	_	_	_	_	_	_
 6	a	a	ADP	E	_	5	fixed	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	1608	1608	NUM	N	NumType=Card	2	nummod	_	_
+8	1608	1608	NUM	N	NumType=Card	2	obl	_	_
 9	circa	circa	ADV	B	_	8	advmod	_	_
 10	tra	tra	ADP	E	_	12	case	_	_
 11	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	nmod	_	_
@@ -27443,7 +27443,7 @@
 44	luce	luce	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
 45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	SpaceAfter=No
-47	,	,	PUNCT	FF	_	48	punct	_	_
+47	,	,	PUNCT	FF	_	46	punct	_	_
 48	Susanna	Susanna	PROPN	SP	_	46	appos	_	SpaceAfter=No
 49	,	,	PUNCT	FF	_	48	punct	_	_
 50	che	che	PRON	PR	PronType=Rel	52	nsubj:pass	_	_
@@ -28848,7 +28848,7 @@
 14	per	per	ADP	E	_	17	case	_	_
 15	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	17	det:predet	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	1609	1609	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+17	1609	1609	NUM	N	NumType=Card	11	obl	_	SpaceAfter=No
 18	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = it_partut-ud-1882
@@ -29230,7 +29230,7 @@
 3-4	del	_	_	_	_	_	_	_	_
 3	di	di	ADP	E	_	2	fixed	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	1623	1623	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+5	1623	1623	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	5	punct	_	_
 7	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
 8	eretto	erigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -30830,7 +30830,7 @@
 # text = Dopo il 1608, d'inverno si esibirono al teatro coperto Blackfriars e d'estate al Globe.
 1	Dopo	dopo	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1608	1608	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+3	1608	1608	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
 6	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
@@ -31701,7 +31701,7 @@
 7	dedicata	dedicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	a	a	ADP	E	_	10	case	_	_
 9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
-10	mr.	signore	NOUN	S	Gender=Masc	7	obl	_	_
+10	mr.	mister	NOUN	SW	Gender=Masc	7	obl	_	_
 11	W.h.	W.h.	PROPN	SP	_	10	flat	_	SpaceAfter=No
 12	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	FF	_	10	punct	_	_
@@ -33946,7 +33946,7 @@
 8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	First	First	PROPN	SP	_	10	amod	_	_
 10	Folio	Folio	PROPN	SP	_	6	obl	_	SpaceAfter=No
-11	,	,	PUNCT	FF	_	15	punct	_	_
+11	,	,	PUNCT	FF	_	2	punct	_	_
 12	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 13	due	due	NUM	N	NumType=Card	15	nummod	_	_
 14	nobili	nobile	ADJ	A	Number=Plur	15	amod	_	_
@@ -33954,7 +33954,7 @@
 16	e	e	CCONJ	CC	_	17	cc	_	_
 17	Pericle	Pericle	PROPN	SP	_	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	17	punct	_	_
-19	Principe	principe	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+19	Principe	principe	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
 20	di	di	ADP	E	_	21	case	_	_
 21	Tiro	Tiro	PROPN	SP	_	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	FF	_	15	punct	_	_
