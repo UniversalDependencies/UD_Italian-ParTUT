@@ -75,7 +75,7 @@
     <dep name="advcl">701</dep>
     <dep name="advmod">1826</dep>
     <dep name="amod">3574</dep>
-    <dep name="appos">76</dep>
+    <dep name="appos">75</dep>
     <dep name="aux">936</dep>
     <dep name="aux:pass">521</dep>
     <dep name="case">8179</dep>
@@ -95,7 +95,7 @@
     <dep name="expl:impers">62</dep>
     <dep name="expl:pass">2</dep>
     <dep name="fixed">177</dep>
-    <dep name="flat">109</dep>
+    <dep name="flat">110</dep>
     <dep name="flat:foreign">65</dep>
     <dep name="flat:name">361</dep>
     <dep name="goeswith">3</dep>
