@@ -2017,8 +2017,8 @@
 6	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
 7	-	-	PUNCT	FB	_	8	punct	_	_
 8	scaturiti	scaturire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
-9	a	a	X	SW	_	8	advmod	_	_
-10	latere	latere	X	SW	_	9	flat:foreign	_	_
+9	a	a	X	SW	Foreign=Yes	8	advmod	_	_
+10	latere	latere	X	SW	Foreign=Yes	9	flat:foreign	_	_
 11-12	della	_	_	_	_	_	_	_	_
 11	di	di	ADP	E	_	13	case	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -2632,8 +2632,8 @@
 20-21	dei	_	_	_	_	_	_	_	_
 20	di	di	ADP	E	_	22	case	_	_
 21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	mass	mass	X	SW	_	19	nmod	_	_
-23	media	media	X	SW	_	22	flat:foreign	_	_
+22	mass	mass	X	SW	Foreign=Yes	19	nmod	_	_
+23	media	media	X	SW	Foreign=Yes	22	flat:foreign	_	_
 24	con	con	ADP	E	_	26	case	_	_
 25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -14874,10 +14874,10 @@
 26	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
 27	-	-	PUNCT	FB	_	11	punct	_	_
 28-29	nella	_	_	_	_	_	_	_	_
-28	in	in	ADP	E	_	30	case	_	_
-29	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Comédie	Comédie	PROPN	SP	_	2	obl	_	_
-31	Humaine	Humaine	PROPN	SP	_	30	amod	_	SpaceAfter=No
+28	in	in	ADP	E	_	29	case	_	_
+29	La	La	X	SW	Foreign=Yes	2	obl	_	_
+30	Comédie	Comédie	X	SW	Foreign=Yes	29	flat:foreign	_	_
+31	Humaine	Humaine	X	SW	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
 32	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = it_partut-ud-1580
@@ -15084,8 +15084,8 @@
 4-5	della	_	_	_	_	_	_	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Comédie	Comédie	PROPN	SP	_	3	nmod	_	_
-7	Humaine	Humaine	PROPN	SP	_	6	amod	_	_
+6	Comédie	Comédie	X	SW	Foreign=Yes	3	nmod	_	_
+7	Humaine	Humaine	X	SW	Foreign=Yes	6	flat:foreign	_	_
 8	scrisse	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	:	:	PUNCT	FC	_	8	punct	_	_
 
@@ -15217,14 +15217,14 @@
 3	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	successo	successo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
-6	de	di	ADP	E	_	8	case	_	_
-7	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	Peau	Peau	NOUN	_	_	5	nmod	_	_
-9	de	de	ADP	E	_	10	case	_	_
-10	Chagrin	Chagrin	NOUN	_	_	8	nmod	_	_
+6	de	di	ADP	E	_	7	case	_	_
+7	La	La	X	SW	Foreign=Yes	5	nmod	_	_
+8	Peau	Peau	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	de	de	X	SW	Foreign=Yes	7	flat:foreign	_	_
+10	Chagrin	Chagrin	X	SW	Foreign=Yes	7	flat:foreign	_	_
 11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
 12	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+13	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
 14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
 15	asino	asino	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
 16	o	o	CCONJ	CC	_	18	cc	_	_
@@ -15232,9 +15232,9 @@
 18	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
 19	magica	magico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 20	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
-21	,	,	PUNCT	FF	_	8	punct	_	_
+21	,	,	PUNCT	FF	_	7	punct	_	_
 22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	storia	storia	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+23	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
 24	a	a	ADP	E	_	25	case	_	_
 25	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
 26	morale	morale	ADJ	A	Number=Sing	25	amod	_	_
@@ -15249,7 +15249,7 @@
 35	di	di	ADP	E	_	36	case	_	_
 36	nome	nome	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
 37	Raphaël	Raphaël	PROPN	SP	_	36	nmod	_	_
-38	de	de	ADP	E	_	37	fixed	_	_
+38	de	de	ADP	E	_	37	flat:name	_	_
 39	Valentin	Valentin	PROPN	SP	_	37	flat:name	_	_
 40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
 41	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
@@ -15581,10 +15581,10 @@
 22	Shakespeare	Shakespeare	PROPN	SP	_	24	nsubj	_	_
 23	probabilmente	probabilmente	ADV	B	_	24	advmod	_	_
 24	frequentò	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	ccomp	_	_
-25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-26	King's	King's	PROPN	SP	_	28	nmod	_	_
-27	New	New	PROPN	SP	_	28	amod	_	_
-28	School	School	PROPN	SP	_	24	obj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	King's	King's	X	SW	Foreign=Yes	24	obj	_	_
+27	New	New	X	SW	Foreign=Yes	26	flat	_	_
+28	School	School	X	SW	Foreign=Yes	26	flat	_	_
 29	a	a	ADP	E	_	30	case	_	_
 30	Stratford	Stratford	PROPN	SP	_	28	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	FF	_	28	punct	_	_
