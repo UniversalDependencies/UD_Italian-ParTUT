@@ -1806,7 +1806,7 @@
 19	di	di	ADP	E	_	21	case	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	vicepresidente	vicepresidente	NOUN	S	Number=Sing	18	nmod	_	_
-22	de	de	PROPN	SP	_	21	appos	_	_
+22	de	de	PROPN	SP	_	21	flat	_	_
 23	Palacio	Palacio	PROPN	SP	_	22	flat:name	_	_
 24	riferite	riferire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
 25	da	da	ADP	E	_	27	case	_	_

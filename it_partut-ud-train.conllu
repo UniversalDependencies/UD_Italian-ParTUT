@@ -16698,7 +16698,7 @@
 9	,	,	PUNCT	FF	_	4	punct	_	_
 10	Christine	Christine	PROPN	SP	_	4	appos	_	_
 11	Lagarde	Lagarde	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
-12	,	,	PUNCT	FF	_	4	punct	_	_
+12	,	,	PUNCT	FF	_	10	punct	_	_
 13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	a	a	ADP	E	_	16	mark	_	_
