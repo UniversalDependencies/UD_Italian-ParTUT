@@ -7,26 +7,26 @@
   <size>
     <total><sentences>2090</sentences><tokens>51614</tokens><words>55558</words><fused>3943</fused></total>
   </size>
-  <lemmas unique="5706" /><!-- il, di, ,, ., a, in, essere, e, uno, che, per, da, avere, ", non -->
-  <forms unique="8437" /><!-- di, ,, il, ., la, a, in, e, l', i, le, che, per, da, un -->
+  <lemmas unique="5705" /><!-- il, di, ,, ., a, in, essere, e, uno, che, per, da, avere, ", non -->
+  <forms unique="8436" /><!-- di, ,, il, ., la, a, in, e, l', i, le, che, per, da, un -->
   <fusions unique="191" /><!-- del, della, dei, delle, nel, al, dell', alla, nella, all', degli, ai, dal, alle, dalla -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
-    <tag name="ADJ">4204</tag><!-- altro, primo, presente, nuovo, europeo, stesso, finanziario, economico, maggiore, relativo -->
+    <tag name="ADJ">4208</tag><!-- altro, primo, presente, nuovo, europeo, stesso, finanziario, economico, maggiore, relativo -->
     <tag name="ADP">9014</tag><!-- di, a, in, per, da, su, con, come, tra, dopo -->
     <tag name="ADV">1898</tag><!-- non, più, anche, solo, molto, oggi, già, ora, tuttavia, così -->
     <tag name="AUX">2044</tag><!-- essere, avere, potere, dovere, venire, stare, volere, andare, dovrebbero -->
     <tag name="CCONJ">1683</tag><!-- e, o, ma, sia, che, né, oppure, ovvero, nonché, quindi -->
     <tag name="DET">9522</tag><!-- il, uno, suo, questo, tale, tutto, alcuno, ogni, loro, nostro -->
     <tag name="NOUN">11520</tag><!-- opera, anno, parte, commissione, diritto, programma, lavoro, paese, stato, membro -->
-    <tag name="NUM">812</tag><!-- due, 1, tre, 6, quattro, 2000, 1999, cinque, 3, 18 -->
+    <tag name="NUM">810</tag><!-- due, tre, 1, 6, quattro, 2000, 1999, cinque, 3, 18 -->
     <tag name="PRON">1798</tag><!-- che, si, cui, ci, quello, lo, questo, altro, esso, ciò -->
     <tag name="PROPN">2037</tag><!-- Shakespeare, Balzac, Facebook, Europa, Ucraina, Pericle, Stati, Uniti, Europea, Unione -->
     <tag name="PUNCT">5467</tag><!-- ,, ., ", -, (, ), ;, :, /, ? -->
     <tag name="SCONJ">672</tag><!-- che, se, quando, come, perché, mentre, sebbene, affinché, dopo, poiché -->
     <tag name="SYM">36</tag><!-- % -->
     <tag name="VERB">4724</tag><!-- avere, fare, essere, scrivere, considerare, dare, rappresentare, tenere, creare, presentare -->
-    <tag name="X">127</tag><!-- la, King's, Men, Humaine, Le, Comédie, Illusions, perdues, Chagrin, Peau -->
+    <tag name="X">125</tag><!-- la, King's, Men, Humaine, Le, Comédie, Illusions, perdues, Chagrin, Peau -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="37">
@@ -44,8 +44,8 @@
     <feat name="Mood" value="Sub" upos="AUX,VERB">274</feat><!-- sia, siano, abbia, venga, possa, fosse, debba, fossero, possano, vengano -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">9428</feat><!-- i, le, gli, sono, hanno, stati, anni, opere, altri, tutti -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">20988</feat><!-- il, la, l', un, è, una, ha, lo, sua, suo -->
-    <feat name="NumType" value="Card" upos="NUM">812</feat><!-- due, 1, tre, 6, quattro, 2000, 1999, cinque, 3, 18 -->
-    <feat name="NumType" value="Ord" upos="ADJ,PRON">215</feat><!-- primo, prima, ultimi, prime, terzo, ultima, primi, seconda, secondo, ultime -->
+    <feat name="NumType" value="Card" upos="NUM">810</feat><!-- due, tre, 1, 6, quattro, 2000, 1999, cinque, 3, 18 -->
+    <feat name="NumType" value="Ord" upos="ADJ,PRON">219</feat><!-- primo, prima, ultimi, prime, terzo, ultima, primi, seconda, secondo, ultime -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">435</feat><!-- ci, mi, noi, siamo, vorrei, abbiamo, ho, io, stiamo, credo -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">202</feat><!-- puoi, vi, ti, te, tu, ricevi, devi, hai, clicca, voi -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">3600</feat><!-- è, si, sono, ha, hanno, era, sia, lo, può, fu -->
@@ -75,10 +75,10 @@
     <dep name="advcl">701</dep>
     <dep name="advmod">1826</dep>
     <dep name="amod">3574</dep>
-    <dep name="appos">75</dep>
+    <dep name="appos">77</dep>
     <dep name="aux">936</dep>
     <dep name="aux:pass">521</dep>
-    <dep name="case">8179</dep>
+    <dep name="case">8178</dep>
     <dep name="cc">1684</dep>
     <dep name="ccomp">347</dep>
     <dep name="compound">186</dep>
@@ -95,21 +95,21 @@
     <dep name="expl:impers">62</dep>
     <dep name="expl:pass">2</dep>
     <dep name="fixed">177</dep>
-    <dep name="flat">110</dep>
+    <dep name="flat">206</dep>
     <dep name="flat:foreign">65</dep>
-    <dep name="flat:name">361</dep>
+    <dep name="flat:name">363</dep>
     <dep name="goeswith">3</dep>
     <dep name="iobj">82</dep>
     <dep name="mark">1377</dep>
-    <dep name="nmod">4967</dep>
+    <dep name="nmod">4960</dep>
     <dep name="nsubj">2035</dep>
     <dep name="nsubj:pass">453</dep>
-    <dep name="nummod">598</dep>
+    <dep name="nummod">505</dep>
     <dep name="obj">2027</dep>
     <dep name="obl">3139</dep>
     <dep name="obl:agent">184</dep>
     <dep name="orphan">8</dep>
-    <dep name="parataxis">17</dep>
+    <dep name="parataxis">18</dep>
     <dep name="punct">5466</dep>
     <dep name="root">2090</dep>
     <dep name="vocative">70</dep>
