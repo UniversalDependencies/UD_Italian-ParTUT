@@ -326,8 +326,8 @@
 9	,	,	PUNCT	FF	_	4	punct	_	_
 10	interrotta	interrompere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
 11	venerdì	venerdì	NOUN	S	Gender=Masc	10	obl	_	_
-12	17	17	NUM	N	NumType=Card	13	nummod	_	_
-13	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+12	17	17	NUM	N	NumType=Card	11	flat	_	_
+13	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	_
 14	e	e	CCONJ	CC	_	15	cc	_	_
 15	rinnovo	rinnovo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
 16	a	a	ADP	E	_	17	case	_	_
@@ -1772,7 +1772,7 @@
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	1º	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
 17	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
-18	1997	1997	NUM	N	NumType=Card	17	nummod	_	_
+18	1997	1997	NUM	N	NumType=Card	17	flat	_	_
 19	concernente	concernere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	11	acl	_	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	ravvicinamento	ravvicinamento	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
@@ -2027,7 +2027,7 @@
 26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 27	1º	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	28	amod	_	_
 28	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
-29	1997	1997	NUM	N	NumType=Card	28	nummod	_	_
+29	1997	1997	NUM	N	NumType=Card	28	flat	_	_
 30	e	e	CCONJ	CC	_	32	cc	_	_
 31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
@@ -4425,12 +4425,12 @@
 16	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	8	punct	_	_
 18-19	del	_	_	_	_	_	_	_	_
-18	di	di	ADP	E	_	21	case	_	_
-19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	13	13	NUM	N	NumType=Card	21	nummod	_	_
-21	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
-22	1978	1978	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
-23	,	,	PUNCT	FF	_	21	punct	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	13	13	NUM	N	NumType=Card	8	nmod	_	_
+21	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	20	flat	_	_
+22	1978	1978	NUM	N	NumType=Card	20	flat	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
 24	concernente	concernere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	8	acl	_	_
 25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	resa	resa	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
@@ -4524,12 +4524,12 @@
 105	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	97	nmod	_	SpaceAfter=No
 106	,	,	PUNCT	FF	_	97	punct	_	_
 107-108	del	_	_	_	_	_	_	_	_
-107	di	di	ADP	E	_	110	case	_	_
-108	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	110	det	_	_
-109	29	29	NUM	N	NumType=Card	110	nummod	_	_
-110	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	97	nmod	_	_
-111	1990	1990	NUM	N	NumType=Card	110	nummod	_	SpaceAfter=No
-112	,	,	PUNCT	FF	_	110	punct	_	_
+107	di	di	ADP	E	_	109	case	_	_
+108	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	109	det	_	_
+109	29	29	NUM	N	NumType=Card	97	nmod	_	_
+110	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	109	flat	_	_
+111	1990	1990	NUM	N	NumType=Card	109	flat	_	SpaceAfter=No
+112	,	,	PUNCT	FF	_	109	punct	_	_
 113	concernente	concernere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	97	acl	_	_
 114	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	115	det	_	_
 115	ravvicinamento	ravvicinamento	NOUN	S	Gender=Masc|Number=Sing	113	obj	_	_
@@ -4574,12 +4574,12 @@
 149	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	144	conj	_	SpaceAfter=No
 150	,	,	PUNCT	FF	_	136	punct	_	_
 151-152	del	_	_	_	_	_	_	_	_
-151	di	di	ADP	E	_	154	case	_	_
-152	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	154	det	_	_
-153	16	16	NUM	N	NumType=Card	154	nummod	_	_
-154	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	136	nmod	_	_
-155	2002	2002	NUM	N	NumType=Card	154	nummod	_	SpaceAfter=No
-156	,	,	PUNCT	FF	_	154	punct	_	_
+151	di	di	ADP	E	_	153	case	_	_
+152	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	153	det	_	_
+153	16	16	NUM	N	NumType=Card	136	nmod	_	_
+154	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	153	flat	_	_
+155	2002	2002	NUM	N	NumType=Card	153	flat	_	SpaceAfter=No
+156	,	,	PUNCT	FF	_	153	punct	_	_
 157-158	sul	_	_	_	_	_	_	_	_
 157	su	su	ADP	E	_	159	case	_	_
 158	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	159	det	_	_
@@ -6692,10 +6692,10 @@
 17	paragrafo	paragrafo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
 18	1	1	NUM	N	NumType=Card	17	nummod	_	_
 19	scade	scadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	6	6	NUM	N	NumType=Card	22	nummod	_	_
-22	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
-23	2009	2009	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	6	6	NUM	N	NumType=Card	19	obl	_	_
+22	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	21	flat	_	_
+23	2009	2009	NUM	N	NumType=Card	21	flat	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	19	punct	_	_
 
 # sent_id = it_partut-ud-998
@@ -20508,15 +20508,15 @@
 1	Honoré	Honoré	PROPN	SP	_	15	nsubj	_	_
 2	de	de	ADP	E	_	1	flat:name	_	_
 3	Balzac	Balzac	PROPN	SP	_	1	flat:name	_	_
-4	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
-5	20	20	NUM	N	NumType=Card	6	nummod	_	_
-6	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
-7	1799	1799	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
-8	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
-9	18	18	NUM	N	NumType=Card	10	nummod	_	_
-10	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
-11	1850	1850	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
-12	)	)	PUNCT	FB	_	6	punct	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	20	20	NUM	N	NumType=Card	1	appos	_	_
+6	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	1799	1799	NUM	N	NumType=Card	5	flat	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+9	18	18	NUM	N	NumType=Card	5	nmod	_	_
+10	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	9	flat	_	_
+11	1850	1850	NUM	N	NumType=Card	9	flat	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	5	punct	_	_
 13	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
 14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	romanziere	romanziere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
@@ -24463,10 +24463,10 @@
 # sent_id = it_partut-ud-1711
 # text = Il 14 marzo 1850, con la salute di Balzac in serio declino, si recarono dalla sua proprietà a Wierzchownia (un villaggio della Verkhivnia) alla chiesa di Berdyczow (nella città di Berdychiv, oggi Ucraina) e si sposarono.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	14	14	NUM	N	NumType=Card	3	nummod	_	_
-3	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
-4	1850	1850	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
-5	,	,	PUNCT	FF	_	3	punct	_	_
+2	14	14	NUM	N	NumType=Card	16	obl	_	_
+3	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1850	1850	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
 6	con	con	ADP	E	_	8	case	_	_
 7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	salute	salute	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
@@ -24680,9 +24680,9 @@
 4	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
 5	francese	francese	ADJ	A	Number=Sing	4	amod	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	20	20	NUM	N	NumType=Card	8	nummod	_	_
-8	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
-9	,	,	PUNCT	FF	_	8	punct	_	_
+7	20	20	NUM	N	NumType=Card	1	obl	_	_
+8	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
 12-13	del	_	_	_	_	_	_	_	_
@@ -24704,10 +24704,10 @@
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	FF	_	4	punct	_	_
-10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	18	18	NUM	N	NumType=Card	12	nummod	_	_
-12	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	18	18	NUM	N	NumType=Card	2	obl	_	_
+12	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = it_partut-ud-1722
@@ -26712,18 +26712,18 @@
 # text = William Shakespeare (26 aprile 1564 (battezzato)-23 aprile 1616) era un poeta, drammaturgo e attore inglese, generalmente considerato come il più importante scrittore in lingua inglese e il più eminente drammaturgo del mondo.
 1	William	William	PROPN	SP	_	17	nsubj	_	_
 2	Shakespeare	Shakespeare	PROPN	SP	_	1	flat:name	_	_
-3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
-4	26	26	NUM	N	NumType=Card	5	nummod	_	_
-5	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
-6	1564	1564	NUM	N	NumType=Card	5	nummod	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	26	26	NUM	N	NumType=Card	1	appos	_	_
+5	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	1564	1564	NUM	N	NumType=Card	4	flat	_	_
 7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
-8	battezzato	battezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	appos	_	SpaceAfter=No
+8	battezzato	battezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
 9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
-10	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
-11	23	23	NUM	N	NumType=Card	12	nummod	_	_
-12	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
-13	1616	1616	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
-14	)	)	PUNCT	FB	_	5	punct	_	_
+10	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+11	23	23	NUM	N	NumType=Card	4	nmod	_	_
+12	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	_
+13	1616	1616	NUM	N	NumType=Card	11	flat	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	4	punct	_	_
 15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
 16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -27186,17 +27186,17 @@
 3	a	a	ADP	E	_	4	case	_	_
 4	Stratford	Stratford	PROPN	SP	_	2	obl	_	SpaceAfter=No
 5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
-6	upon	upon	ADP	E	_	8	case	_	SpaceAfter=No
-7	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
-8	Avon	Avon	PROPN	SP	_	4	nmod	_	_
+6	upon	upon	ADP	E	_	4	flat:name	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	Avon	Avon	PROPN	SP	_	4	flat:name	_	_
 9	e	e	CCONJ	CC	_	12	cc	_	_
 10	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	12	nmod	_	_
 11	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
 12	battezzato	battezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
-13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	26	26	NUM	N	NumType=Card	15	nummod	_	_
-15	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
-16	1564	1564	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	26	26	NUM	N	NumType=Card	12	obl	_	_
+15	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	14	flat	_	_
+16	1564	1564	NUM	N	NumType=Card	14	flat	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = it_partut-ud-1826
@@ -27215,12 +27215,12 @@
 12	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
 14	colloca	collocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	23	23	NUM	N	NumType=Card	17	nummod	_	_
-17	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
-18	,	,	PUNCT	FF	_	17	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	23	23	NUM	N	NumType=Card	14	obl	_	_
+17	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	16	appos	_	_
 21	di	di	ADP	E	_	23	case	_	_
 22	san	santo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
 23	Giorgio	Giorgio	PROPN	SP	_	20	nmod	_	SpaceAfter=No
@@ -27260,10 +27260,10 @@
 28	che	che	SCONJ	CS	_	30	mark	_	_
 29	Shakespeare	Shakespeare	PROPN	SP	_	30	nsubj	_	_
 30	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	ccomp	_	_
-31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-32	23	23	NUM	N	NumType=Card	33	nummod	_	_
-33	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
-34	1616	1616	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	23	23	NUM	N	NumType=Card	30	obl	_	_
+33	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	32	flat	_	_
+34	1616	1616	NUM	N	NumType=Card	32	flat	_	SpaceAfter=No
 35	.	.	PUNCT	FS	_	21	punct	_	_
 
 # sent_id = it_partut-ud-1828
@@ -27449,14 +27449,14 @@
 50	che	che	PRON	PR	PronType=Rel	52	nsubj:pass	_	_
 51	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	52	aux:pass	_	_
 52	battezzata	battezzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	46	acl:relcl	_	_
-53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-54	26	26	NUM	N	NumType=Card	55	nummod	_	_
-55	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	_
-56	1583	1583	NUM	N	NumType=Card	55	nummod	_	SpaceAfter=No
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	26	26	NUM	N	NumType=Card	52	obl	_	_
+55	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	54	flat	_	_
+56	1583	1583	NUM	N	NumType=Card	54	flat	_	SpaceAfter=No
 57	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = it_partut-ud-1837
-# text = Hamnet morì per cause ignote all'età di 11 anni e fu sepolto l''11 agosto 1596.
+# text = Hamnet morì per cause ignote all'età di 11 anni e fu sepolto l'11 agosto 1596.
 1	Hamnet	Hamnet	PROPN	SP	_	2	nsubj	_	_
 2	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	per	per	ADP	E	_	4	case	_	_
@@ -27472,10 +27472,10 @@
 12	e	e	CCONJ	CC	_	14	cc	_	_
 13	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
 14	sepolto	seppellire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
-15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-16	'11	'11	NUM	N	NumType=Card	17	nummod	_	_
-17	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
-18	1596	1596	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	11	11	NUM	N	NumType=Card	14	obl	_	_
+17	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	16	flat	_	_
+18	1596	1596	NUM	N	NumType=Card	16	flat	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = it_partut-ud-1838
@@ -28784,11 +28784,11 @@
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	documento	documento	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
 4-5	del	_	_	_	_	_	_	_	_
-4	di	di	ADP	E	_	7	case	_	_
-5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	7	7	NUM	N	NumType=Card	7	nummod	_	_
-7	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
-8	1609	1609	NUM	N	NumType=Card	7	nummod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	7	7	NUM	N	NumType=Card	3	nmod	_	_
+7	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	1609	1609	NUM	N	NumType=Card	6	flat	_	_
 9	in	in	ADP	E	_	11	case	_	_
 10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	causa	causa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
@@ -30803,16 +30803,16 @@
 17	opere	opera	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
 18	di	di	ADP	E	_	19	case	_	_
 19	Shakespeare	Shakespeare	PROPN	SP	_	17	nmod	_	_
-20	fra	fra	ADP	E	_	23	case	_	_
-21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	1	1	NUM	N	NumType=Card	23	nummod	_	_
-23	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
-24	1604	1604	NUM	N	NumType=Card	23	nummod	_	_
-25	e	e	CCONJ	CC	_	28	cc	_	_
-26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-27	31	31	NUM	N	NumType=Card	28	nummod	_	_
-28	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
-29	1605	1605	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+20	fra	fra	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	1	1	NUM	N	NumType=Card	13	obl	_	_
+23	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	_
+24	1604	1604	NUM	N	NumType=Card	22	flat	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	31	31	NUM	N	NumType=Card	22	conj	_	_
+28	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	27	flat	_	_
+29	1605	1605	NUM	N	NumType=Card	27	flat	_	SpaceAfter=No
 30	,	,	PUNCT	FF	_	13	punct	_	_
 31	fra	fra	ADP	E	_	32	case	_	_
 32	cui	cui	PRON	PR	PronType=Rel	34	nmod	_	_
@@ -33739,21 +33739,21 @@
 1	Susanna	Susanna	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	prima	primo	PRON	NO	Gender=Fem|Number=Sing|NumType=Ord|PronType=Ind	1	nmod	_	_
+4	prima	primo	PRON	NO	Gender=Fem|Number=Sing|NumType=Ord|PronType=Ind	1	appos	_	_
 5-6	dei	_	_	_	_	_	_	_	_
 5	di	di	ADP	E	_	8	case	_	_
 6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
 8	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	FF	_	1	punct	_	_
+9	,	,	PUNCT	FF	_	4	punct	_	_
 10	nacque	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	sei	sei	NUM	N	NumType=Card	12	nummod	_	_
 12	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
 13	dopo	dopo	ADV	B	_	10	advmod	_	_
-14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	26	26	NUM	N	NumType=Card	16	nummod	_	_
-16	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
-17	1583	1583	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	26	26	NUM	N	NumType=Card	10	obl	_	_
+16	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	_
+17	1583	1583	NUM	N	NumType=Card	15	flat	_	SpaceAfter=No
 18	.	.	PUNCT	FS	_	10	punct	_	_
 
 # sent_id = it_partut-ud-2081

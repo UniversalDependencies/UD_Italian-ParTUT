@@ -3207,9 +3207,9 @@
 10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	19	19	NUM	N	NumType=Card	14	nummod	_	_
-14	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
-15	1998	1998	NUM	N	NumType=Card	14	nummod	_	_
+13	19	19	NUM	N	NumType=Card	11	obl	_	_
+14	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	_
+15	1998	1998	NUM	N	NumType=Card	13	flat	_	_
 16	e	e	CCONJ	CC	_	23	cc	_	_
 17	che	che	SCONJ	CS	_	23	mark	_	_
 18	oggi	oggi	ADV	B	_	23	advmod	_	_
@@ -9004,12 +9004,12 @@
 25	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	FF	_	17	punct	_	_
 27-28	del	_	_	_	_	_	_	_	_
-27	di	di	ADP	E	_	30	case	_	_
-28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-29	22	22	NUM	N	NumType=Card	30	nummod	_	_
-30	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
-31	1992	1992	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
-32	,	,	PUNCT	FF	_	17	punct	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	22	22	NUM	N	NumType=Card	17	nmod	_	_
+30	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	29	flat	_	_
+31	1992	1992	NUM	N	NumType=Card	29	flat	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	29	punct	_	_
 33	concernente	concernere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	17	acl	_	_
 34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
 35	indicazione	indicazione	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
@@ -9065,12 +9065,12 @@
 80	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	75	conj	_	SpaceAfter=No
 81	,	,	PUNCT	FF	_	65	punct	_	_
 82-83	del	_	_	_	_	_	_	_	_
-82	di	di	ADP	E	_	85	case	_	_
-83	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
-84	17	17	NUM	N	NumType=Card	85	nummod	_	_
-85	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	65	nmod	_	_
-86	2000	2000	NUM	N	NumType=Card	85	nummod	_	SpaceAfter=No
-87	,	,	PUNCT	FF	_	65	punct	_	_
+82	di	di	ADP	E	_	84	case	_	_
+83	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	det	_	_
+84	17	17	NUM	N	NumType=Card	65	nmod	_	_
+85	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	84	flat	_	_
+86	2000	2000	NUM	N	NumType=Card	84	flat	_	SpaceAfter=No
+87	,	,	PUNCT	FF	_	84	punct	_	_
 88	relativo	relativo	ADJ	A	Gender=Masc|Number=Sing	65	amod	_	_
 89-90	al	_	_	_	_	_	_	_	_
 89	a	a	ADP	E	_	91	case	_	_
@@ -9113,12 +9113,12 @@
 124	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	119	conj	_	SpaceAfter=No
 125	,	,	PUNCT	FF	_	109	punct	_	_
 126-127	del	_	_	_	_	_	_	_	_
-126	di	di	ADP	E	_	129	case	_	_
-127	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	129	det	_	_
-128	6	6	NUM	N	NumType=Card	129	nummod	_	_
-129	novembre	novembre	NOUN	S	Gender=Masc	109	nmod	_	_
-130	2001	2001	NUM	N	NumType=Card	129	nummod	_	SpaceAfter=No
-131	,	,	PUNCT	FF	_	109	punct	_	_
+126	di	di	ADP	E	_	128	case	_	_
+127	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	128	det	_	_
+128	6	6	NUM	N	NumType=Card	109	nmod	_	_
+129	novembre	novembre	NOUN	S	Gender=Masc	128	flat	_	_
+130	2001	2001	NUM	N	NumType=Card	128	flat	_	SpaceAfter=No
+131	,	,	PUNCT	FF	_	128	punct	_	_
 132	concernente	concernere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	109	acl	_	_
 133	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	134	det	_	_
 134	programma	programma	NOUN	S	Gender=Masc|Number=Sing	132	obj	_	_
@@ -9162,12 +9162,12 @@
 169	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	164	conj	_	SpaceAfter=No
 170	,	,	PUNCT	FF	_	156	punct	_	_
 171-172	del	_	_	_	_	_	_	_	_
-171	di	di	ADP	E	_	174	case	_	_
-172	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	174	det	_	_
-173	27	27	NUM	N	NumType=Card	174	nummod	_	_
-174	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	156	nmod	_	_
-175	2003	2003	NUM	N	NumType=Card	174	nummod	_	SpaceAfter=No
-176	,	,	PUNCT	FF	_	174	punct	_	_
+171	di	di	ADP	E	_	173	case	_	_
+172	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	173	det	_	_
+173	27	27	NUM	N	NumType=Card	156	nmod	_	_
+174	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	173	flat	_	_
+175	2003	2003	NUM	N	NumType=Card	173	flat	_	SpaceAfter=No
+176	,	,	PUNCT	FF	_	173	punct	_	_
 177-178	sui	_	_	_	_	_	_	_	_
 177	su	su	ADP	E	_	179	case	_	_
 178	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	179	det	_	_
@@ -9203,12 +9203,12 @@
 206	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	201	conj	_	SpaceAfter=No
 207	,	,	PUNCT	FF	_	193	punct	_	_
 208-209	del	_	_	_	_	_	_	_	_
-208	di	di	ADP	E	_	211	case	_	_
-209	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	211	det	_	_
-210	27	27	NUM	N	NumType=Card	211	nmod	_	_
-211	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	193	nmod	_	_
-212	2003	2003	NUM	N	NumType=Card	211	nummod	_	SpaceAfter=No
-213	,	,	PUNCT	FF	_	211	punct	_	_
+208	di	di	ADP	E	_	210	case	_	_
+209	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	210	det	_	_
+210	27	27	NUM	N	NumType=Card	193	nmod	_	_
+211	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	210	flat	_	_
+212	2003	2003	NUM	N	NumType=Card	210	flat	_	SpaceAfter=No
+213	,	,	PUNCT	FF	_	210	punct	_	_
 214-215	sulla	_	_	_	_	_	_	_	_
 214	su	su	ADP	E	_	216	case	_	_
 215	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	216	det	_	_
@@ -9246,12 +9246,12 @@
 244	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	236	nmod	_	SpaceAfter=No
 245	,	,	PUNCT	FF	_	236	punct	_	_
 246-247	del	_	_	_	_	_	_	_	_
-246	di	di	ADP	E	_	249	case	_	_
-247	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	249	det	_	_
-248	27	27	NUM	N	NumType=Card	249	nmod	_	_
-249	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	236	nmod	_	_
-250	1976	1976	NUM	N	NumType=Card	249	nummod	_	SpaceAfter=No
-251	,	,	PUNCT	FF	_	249	punct	_	_
+246	di	di	ADP	E	_	248	case	_	_
+247	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	248	det	_	_
+248	27	27	NUM	N	NumType=Card	236	nmod	_	_
+249	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	248	flat	_	_
+250	1976	1976	NUM	N	NumType=Card	248	flat	_	SpaceAfter=No
+251	,	,	PUNCT	FF	_	248	punct	_	_
 252	concernente	concernere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	236	acl	_	_
 253	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	254	det	_	_
 254	ravvicinamento	ravvicinamento	NOUN	S	Gender=Masc|Number=Sing	252	obj	_	_
@@ -9405,11 +9405,11 @@
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
 25	,	,	PUNCT	FF	_	16	punct	_	_
-26	entro	entro	ADP	E	_	29	case	_	_
-27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-28	30	30	NUM	N	NumType=Card	29	nummod	_	_
-29	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
-30	2005	2005	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+26	entro	entro	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	30	30	NUM	N	NumType=Card	16	obl	_	_
+29	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	28	flat	_	_
+30	2005	2005	NUM	N	NumType=Card	28	flat	_	SpaceAfter=No
 31	:	:	PUNCT	FC	_	12	punct	_	_
 
 # sent_id = it_partut-ud-644
@@ -9427,9 +9427,9 @@
 10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	30	30	NUM	N	NumType=Card	14	nummod	_	_
-14	novembre	novembre	NOUN	S	Gender=Masc	11	obl	_	_
-15	2004	2004	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+13	30	30	NUM	N	NumType=Card	11	obl	_	_
+14	novembre	novembre	NOUN	S	Gender=Masc	13	flat	_	_
+15	2004	2004	NUM	N	NumType=Card	13	flat	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	11	punct	_	_
 
 # sent_id = it_partut-ud-647
@@ -12772,8 +12772,8 @@
 5	in	in	ADP	E	_	6	case	_	_
 6	vigore	vigore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-8	1	1	NUM	N	NumType=Card	10	amod	_	SpaceAfter=No
-9	°	°	X	X	_	8	goeswith	_	_
+8	1	1	ADJ	NO	NumType=Ord	10	amod	_	SpaceAfter=No
+9	°	°	ADJ	NO	NumType=Ord	8	goeswith	_	_
 10	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
 11	2007	2007	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	4	punct	_	_
@@ -13114,10 +13114,10 @@
 15	paragrafo	paragrafo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
 16	1	1	NUM	N	NumType=Card	15	nummod	_	_
 17	scade	scadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	31	31	NUM	N	NumType=Card	20	nummod	_	_
-20	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
-21	2007	2007	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	31	31	NUM	N	NumType=Card	17	obl	_	_
+20	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	19	flat	_	_
+21	2007	2007	NUM	N	NumType=Card	19	flat	_	SpaceAfter=No
 22	.	.	PUNCT	FS	_	17	punct	_	_
 
 # sent_id = it_partut-ud-1001
@@ -13469,9 +13469,9 @@
 12	armate	armato	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
 13	di	di	ADP	E	_	14	case	_	_
 14	Kiev	Kiev	PROPN	SP	_	11	nmod	_	_
-15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	20	20	NUM	N	NumType=Card	17	nummod	_	_
-17	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	20	20	NUM	N	NumType=Card	5	obl	_	_
+17	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	5	punct	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
@@ -15636,11 +15636,11 @@
 
 # sent_id = it_partut-ud-1833
 # text = Il 27 novembre 1582, la corte del concistoro della diocesi di Worcester pubblicò una licenza matrimoniale.
-1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	27	27	NUM	N	NumType=Card	3	nummod	_	_
-3	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
-4	1582	1582	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
-5	,	,	PUNCT	FF	_	3	punct	_	_
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	27	27	NUM	N	NumType=Card	16	obl	_	_
+3	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1582	1582	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
 6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	corte	corte	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
 8-9	del	_	_	_	_	_	_	_	_
@@ -15681,10 +15681,10 @@
 18	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
 19	vennero	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
 20	battezzati	battezzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
-21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	2	2	NUM	N	NumType=Card	23	nummod	_	_
-23	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
-24	1585	1585	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	2	2	NUM	N	NumType=Card	20	obl	_	_
+23	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	_
+24	1585	1585	NUM	N	NumType=Card	22	flat	_	SpaceAfter=No
 25	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = it_partut-ud-1845
@@ -15955,9 +15955,9 @@
 # text = Tuttavia, il 29 giugno un cannone colpì il tetto del Globe, incendiandolo completamente, un fatto che individua con rara precisione la data di rappresentazione di un'opera di Shakespeare.
 1	Tuttavia	tuttavia	ADV	B	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
-3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	29	29	NUM	N	NumType=Card	5	nummod	_	_
-5	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	29	29	NUM	N	NumType=Card	8	obl	_	_
+5	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
 6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	cannone	cannone	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	colpì	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
