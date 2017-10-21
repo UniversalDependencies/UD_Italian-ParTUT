@@ -45,6 +45,14 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
 * POS tags: 15
 * Category=value feature pairs: 36
 		
+## Changelog 
+2017-11-15 v2.1 		
+* dates revised and annotated as flat structures
+* change of xpos for copulas (from VA to V)
+* other minor corrections 
+
+2017-03-01 v2
+* initial release
 
 ## References
  
