@@ -79,6 +79,7 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
 
 
 === Machine-readable metadata ================================================
+
 Data available since: UD v2
 License: CC BY-NC-SA 4.0
 Includes text: yes
@@ -91,5 +92,6 @@ Relations: converted from manual
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: msanguin@di.unito.it
+
 ===============================================================================
 
