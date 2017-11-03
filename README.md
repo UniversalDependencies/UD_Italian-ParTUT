@@ -38,9 +38,9 @@ We are deeply grateful to Project Syndicate© for letting us download and exploi
 Since version 2.1, the corpus has been re-partitioned so as to avoid overlapping sentences with UD_Italian. 
 The treebank has thus been randomly split as follows:
 
-* it_partut-ud-train.conllu: 48976 words (1783 sentences)
-* it_partut-ud-dev.conllu: 4871 words (238 sentences)
-* it_partut-ud-test.conllu: 1711 words (69 sentences)
+* it_partut-ud-train.conllu: .... words (1781 sentences)
+* it_partut-ud-dev.conllu: ... words (156 sentences)
+* it_partut-ud-test.conllu: ... words (153 sentences)
 
 In order to preserve the 1:1 correspondence among the three language sections, all of them were partitioned in the same way; therefore the same sentences, in the same order,
 are found in the training, development and test set of UD_French-ParTUT and UD_English-ParTUT as well.
