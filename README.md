@@ -32,6 +32,17 @@ NOTE: While the Italian section of ParTUT is already included in [UD_Italian](ht
 # Acknowledgements
 We are deeply grateful to Project Syndicate© for letting us download and exploit their articles as text material, under the terms of educational use.
 
+## References
+
+* Manuela Sanguinetti, Cristina Bosco. 2014. PartTUT: The Turin University Parallel Treebank.
+  In Basili, Bosco, Delmonte, Moschitti, Simi (editors) Harmonization and development of resources and tools for Italian Natural Language Processing within the PARLI project, LNCS, Springer Verlag
+
+* Manuela Sanguinetti, Cristina Bosco. 2014. Converting the parallel treebank ParTUT in Universal Stanford Dependencies.
+  In Proceedings of the 1rst Conference for Italian Computational Linguistics (CLiC-it 2014), Pisa (Italy)
+
+* Cristina Bosco, Manuela Sanguinetti. 2014. Towards a Universal Stanford Dependencies parallel treebank.
+  In Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT-13), Tubingen (Germany)
+  
 
 # Corpus splitting
 
@@ -56,17 +67,6 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
 * Category=value feature pairs: 37
 
 
-# References
-
-* Manuela Sanguinetti, Cristina Bosco. 2014. PartTUT: The Turin University Parallel Treebank.
-  In Basili, Bosco, Delmonte, Moschitti, Simi (editors) Harmonization and development of resources and tools for Italian Natural Language Processing within the PARLI project, LNCS, Springer Verlag
-
-* Manuela Sanguinetti, Cristina Bosco. 2014. Converting the parallel treebank ParTUT in Universal Stanford Dependencies.
-  In Proceedings of the 1rst Conference for Italian Computational Linguistics (CLiC-it 2014), Pisa (Italy)
-
-* Cristina Bosco, Manuela Sanguinetti. 2014. Towards a Universal Stanford Dependencies parallel treebank.
-  In Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT-13), Tubingen (Germany)
-
 # Changelog
 2017-11-15 v2.1
 * revised dates (annotated as flat structures)
@@ -78,8 +78,10 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
 * initial release
 
 
-=== Machine-readable metadata ================================================
+# Metadata
 
+```
+=== Machine-readable metadata ================================================
 Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
@@ -92,6 +94,5 @@ Relations: converted with corrections
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: msanguin@di.unito.it
-
 ===============================================================================
-
+```
