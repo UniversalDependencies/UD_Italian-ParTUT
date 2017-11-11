@@ -1,8 +1,14 @@
-# Corpus Description
+# Summary
+
+UD_Italian-ParTUT is a conversion of a multilingual parallel treebank developed at the University of Turin,
+ and consisting of a variety of text genres, including talks, legal texts and Wikipedia articles.
+
+
+# Introduction
 
 UD_Italian-ParTUT data is derived from the already-existing parallel treebank Par(allel)TUT.
 
-ParTUT is a morpho-syntactically annotated collection of Italian/French/English parallel sentences, 
+ParTUT is a morpho-syntactically annotated collection of Italian/French/English parallel sentences,
 which includes texts from different sources and representing different genres and domains, released in several formats.
 
 ParTUT comprises approximately 167,000 tokens, with an average amount
@@ -21,54 +27,72 @@ gathered from a large number of sources and domains:
 ParTUT data can be downloaded [here](http://www.di.unito.it/~tutreeb/treebanks.html) and [here](https://github.com/msang/partut-repo) (CoNLL format only).
 
 
-NOTE: While the Italian section of ParTUT is already included in [UD_Italian](https://github.com/UniversalDependencies/UD_Italian/tree/master), UD_Italian-ParTUT presents an
-additional 150-sentence set, and comprises just those sentences having a 1:1 correspondence with their English and French counterparts.
+NOTE: While the Italian section of ParTUT is already included in [UD_Italian](https://github.com/UniversalDependencies/UD_Italian/tree/master), UD_Italian-ParTUT comprises just those sentences having a 1:1 correspondence with their English and French counterparts.
 
-## Corpus splitting
+# Acknowledgements
+We are deeply grateful to Project Syndicate© for letting us download and exploit their articles as text material, under the terms of educational use.
 
-The corpus was randomly splitted as follows:
+## References
 
-* it_partut-ud-train.conllu: 28844 words (1090 sentences)
-* it_partut-ud-dev.conllu: 13807 words (500 sentences)
-* it_partut-ud-test.conllu: 12907 words (500 sentences)
+* Manuela Sanguinetti, Cristina Bosco. 2014. PartTUT: The Turin University Parallel Treebank.
+  In Basili, Bosco, Delmonte, Moschitti, Simi (editors) Harmonization and development of resources and tools for Italian Natural Language Processing within the PARLI project, LNCS, Springer Verlag
+
+* Manuela Sanguinetti, Cristina Bosco. 2014. Converting the parallel treebank ParTUT in Universal Stanford Dependencies.
+  In Proceedings of the 1rst Conference for Italian Computational Linguistics (CLiC-it 2014), Pisa (Italy)
+
+* Cristina Bosco, Manuela Sanguinetti. 2014. Towards a Universal Stanford Dependencies parallel treebank.
+  In Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT-13), Tubingen (Germany)
+  
+
+# Corpus splitting
+
+Since version 2.1, the corpus has been re-partitioned so as to avoid overlapping sentences with UD_Italian.
+The treebank has thus been randomly split as follows:
+
+* it_partut-ud-train.conllu: 48934 words (1781 sentences)
+* it_partut-ud-dev.conllu: 2984 words (156 sentences)
+* it_partut-ud-test.conllu: 3640 words (153 sentences)
 
 In order to preserve the 1:1 correspondence among the three language sections, all of them were partitioned in the same way; therefore the same sentences, in the same order,
 are found in the training, development and test set of UD_French-ParTUT and UD_English-ParTUT as well.
 
 
-## Basic statistics
+# Basic statistics
 
 * Tree count:  2090
-* Word count:  55594
-* Token count: 51650
+* Word count:  55558
+* Token count: 51614
 * Dep. relations: 44 of which 11 language specific
 * POS tags: 15
-* Category=value feature pairs: 36
-		
-
-## References
- 
-* Manuela Sanguinetti, Cristina Bosco. 2014. PartTUT: The Turin University Parallel Treebank. 
-  In Basili, Bosco, Delmonte, Moschitti, Simi (editors) Harmonization and development of resources and tools for Italian Natural Language Processing within the PARLI project, LNCS, Springer Verlag
-  
-* Manuela Sanguinetti, Cristina Bosco. 2014. Converting the parallel treebank ParTUT in Universal Stanford Dependencies. 
-  In Proceedings of the 1rst Conference for Italian Computational Linguistics (CLiC-it 2014), Pisa (Italy)
-  
-* Cristina Bosco, Manuela Sanguinetti. 2014. Towards a Universal Stanford Dependencies parallel treebank. 
-  In Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT-13), Tubingen (Germany)
-  
-## Acknowledments
-
-We are deeply grateful to Project Syndicate© for letting us download and exploit their articles as text material, under the terms of educational use. 
+* Category=value feature pairs: 37
 
 
+# Changelog
+2017-11-15 v2.1
+* revised dates (annotated as flat structures)
+* change of xpos for copulas (from VA to V)
+* other minor corrections
+* revised splits in order to avoid overlapping sentences with UD_Italian
 
-=== Machine-readable metadata =================================================
-Documentation status: partial
-Data source: semi-automatic
+2017-03-01 v2
+* initial release
+
+
+# Metadata
+
+```
+=== Machine-readable metadata ================================================
 Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
-Genre: legal news wiki 
+Includes text: yes
+Genre: legal news wiki
+Lemmas: converted with corrections
+UPOS: converted with corrections
+XPOS: converted with corrections
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
-Contact: msanguin@di.unito.it 
+Contributing: elsewhere
+Contact: msanguin@di.unito.it
 ===============================================================================
+```
