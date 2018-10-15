@@ -86,7 +86,7 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
 
 === Machine-readable metadata ================================================
 ```
-Data available since: UD v2
+Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: legal news wiki
