@@ -68,6 +68,9 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
   In Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT-13), Tubingen (Germany)
   
 # Changelog
+2019-05-15 v2.4
+* various corrections to pass new validation
+
 2018-11-15 v2.3
 * no changes since last version
 
