@@ -53956,7 +53956,7 @@
 27	31	31	NUM	N	NumType=Card	22	conj	_	_
 28	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	27	flat	_	_
 29	1605	1605	NUM	N	NumType=Card	27	flat	_	SpaceAfter=No
-30	,	,	PUNCT	FF	_	28	punct	_	_
+30	,	,	PUNCT	FF	_	27	punct	_	_
 31	fra	fra	ADP	E	_	32	case	_	_
 32	cui	cui	PRON	PR	PronType=Rel	34	nmod	_	_
 33	due	due	NUM	N	NumType=Card	34	nummod	_	_
