@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Italian-ParTUT:
-commit 5745044434f41476656a69cf20f24b0efd1fae22
+commit 4f54d3853ae82e31d9cc46de88142536aa2ce64e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 14:38:18 2022 +0200
+Date:   Mon Nov 14 11:24:58 2022 +0100
 Size: counted 55558 of 55558 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.034855040236.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 7 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 55558 words.
 Genres: found 3 out of 17 known.
-validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-dev.conllu
 *** PASSED ***
-validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-test.conllu
 *** PASSED ***
-validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
