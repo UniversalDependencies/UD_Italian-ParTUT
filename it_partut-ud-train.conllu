@@ -43054,7 +43054,7 @@
 # sent_id = it_partut-ud-1554
 # text = Honoré de Balzac era nato in una famiglia che si era nobilmente impegnata per raggiungere la rispettabilità.
 1	Honoré	Honoré	PROPN	SP	_	5	nsubj	_	_
-2	de	de	ADP	E	_	1	fixed	_	_
+2	de	de	ADP	E	_	1	flat:name	_	_
 3	Balzac	Balzac	PROPN	SP	_	1	flat:name	_	_
 4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
 5	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -46134,7 +46134,7 @@
 3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	di	di	ADP	E	_	5	case	_	_
 5	Lucien	Lucien	PROPN	SP	_	3	obl	_	_
-6	de	de	ADP	E	_	5	fixed	_	_
+6	de	de	ADP	E	_	5	flat:name	_	_
 7	Rubempré	Rubempré	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	5	punct	_	_
 9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
