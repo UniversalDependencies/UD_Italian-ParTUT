@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Italian-ParTUT:
-commit dc2e114a2808566930cc58f78eacb7c1a0e1352b
-Merge: f9afd5a 3ac1415
+commit fbbb2b50c0b6ac6717d649cc0520fae377ed7271
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:14:07 2023 +0100
 Size: counted 55558 of 55558 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.034855040236.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.9.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL          7
-Udapi: found 7 bugs.
+               TOTAL          6
+Udapi: found 6 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 55558 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.581582201144504) = 0.149123641319104
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=0.998740055437561) = 0.307304632442326
+(weight=0.307692307692308) * (score{udapi}=0.998920047517909) = 0.307360014620895
 (weight=0.0769230769230769) * (score{udeprels}=0.778378378378378) = 0.0598752598752599
-(TOTAL score=0.746861603018289) * (availability=1) * (validity=1) = 0.746861603018289
+(TOTAL score=0.746916985196857) * (availability=1) * (validity=1) = 0.746916985196857
 STARS = 3.5
-UD_Italian-ParTUT	0.746861603018289	3.5
+UD_Italian-ParTUT	0.746916985196857	3.5
