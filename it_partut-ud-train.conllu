@@ -2105,8 +2105,8 @@
 15	qui	qui	ADV	B	_	16	advmod	_	_
 16	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 17	in	in	ADP	E	_	18	case	_	_
-18	licenza	licenza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
-19	.	.	PUNCT	FS	_	4	punct	_	_
+18	licenza	licenza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = it_partut-ud-61
 # text = Non esistono altre intese, accordi o dichiarazioni relative all'opera che non siano quelle qui specificate.
@@ -39680,9 +39680,9 @@
 12	a	a	ADP	E	_	14	case	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
-15	tale	tale	DET	DD	Number=Sing|PronType=Dem	14	det	_	_
+15	tale	tale	ADJ	A	Number=Sing	14	amod	_	_
 16	da	da	ADP	E	_	17	mark	_	_
-17	reimpiegare	reimpiegare	VERB	V	VerbForm=Inf	15	advcl	_	_
+17	reimpiegare	reimpiegare	VERB	V	VerbForm=Inf	15	acl	_	_
 18	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
 19	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	17	obj	_	_
 20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
@@ -55449,9 +55449,9 @@
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	forma	forma	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	poetica	poetico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
-4	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+4	propria	proprio	ADJ	A	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	amod	_	_
 5	di	di	ADP	E	_	6	case	_	_
-6	Shakespeare	Shakespeare	PROPN	SP	_	4	nmod	_	_
+6	Shakespeare	Shakespeare	PROPN	SP	_	4	obl	_	_
 7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	verso	verso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
