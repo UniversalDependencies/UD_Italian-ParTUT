@@ -95,6 +95,7 @@ are found in the training, development and test set of UD_French-ParTUT and UD_E
 Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: legal news wiki
 Lemmas: converted with corrections
 UPOS: converted with corrections
