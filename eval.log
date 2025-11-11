@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Italian-ParTUT:
-commit e7a5eee6ea9d3d1ce18b939e1f2704de0ec78c7d
+commit 08d768ce8630afd86e469f94883425c00644d2bb
+Merge: 6b6b771 51002a1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:47:21 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'it_partut'
+Language code (from CoNLL-U file name) = 'it'
+Found the following data files: it_partut-ud-dev.conllu, it_partut-ud-test.conllu, it_partut-ud-train.conllu
 Size: counted 55558 of 55558 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.034855040236.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,64 +23,59 @@ Features: 34916 out of 55558 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi:
-               TOTAL          0
-Udapi: found 0 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 55558 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-dev.conllu
-[Line 290 Sent it_partut-ud-266 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'più di' does not have the 'ExtPos' feature
-[Line 1031 Sent it_partut-ud-878 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 1109 Sent it_partut-ud-882 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
-[Line 1403 Sent it_partut-ud-901 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'man mano che' does not have the 'ExtPos' feature
-[Line 1701 Sent it_partut-ud-918 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
-[Line 2685 Sent it_partut-ud-1343 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 3229 Sent it_partut-ud-1820 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 290 Sent it_partut-ud-266]: [L3 Warning fixed-without-extpos] Fixed expression 'più di' does not have the 'ExtPos' feature
+[Line 1031 Sent it_partut-ud-878]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 1109 Sent it_partut-ud-882]: [L3 Warning fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
+[Line 1403 Sent it_partut-ud-901]: [L3 Warning fixed-without-extpos] Fixed expression 'man mano che' does not have the 'ExtPos' feature
+[Line 1701 Sent it_partut-ud-918]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 2685 Sent it_partut-ud-1343]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 3229 Sent it_partut-ud-1820]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
 Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-test.conllu
-[Line 51 Sent it_partut-ud-46 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Salvo che' does not have the 'ExtPos' feature
-[Line 697 Sent it_partut-ud-371 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
-[Line 764 Sent it_partut-ud-421 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'da quando' does not have the 'ExtPos' feature
-[Line 1392 Sent it_partut-ud-952 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
-[Line 1823 Sent it_partut-ud-967 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 2190 Sent it_partut-ud-982 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 2790 Sent it_partut-ud-1005 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto a' does not have the 'ExtPos' feature
-[Line 3274 Sent it_partut-ud-1194 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'più che' does not have the 'ExtPos' feature
-[Line 3305 Sent it_partut-ud-1201 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'incontro a' does not have the 'ExtPos' feature
-[Line 3551 Sent it_partut-ud-1392 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'in quanto' does not have the 'ExtPos' feature
+[Line 51 Sent it_partut-ud-46]: [L3 Warning fixed-without-extpos] Fixed expression 'Salvo che' does not have the 'ExtPos' feature
+[Line 697 Sent it_partut-ud-371]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 764 Sent it_partut-ud-421]: [L3 Warning fixed-without-extpos] Fixed expression 'da quando' does not have the 'ExtPos' feature
+[Line 1392 Sent it_partut-ud-952]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 1823 Sent it_partut-ud-967]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 2190 Sent it_partut-ud-982]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 2434 Sent it_partut-ud-991]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'carica') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2699 Sent it_partut-ud-1002]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'carica') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2731 Sent it_partut-ud-1003]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'carica') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2790 Sent it_partut-ud-1005]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto a' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 13
+Warnings: 16
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParTUT/it_partut-ud-train.conllu
-[Line 142 Sent it_partut-ud-10 Node 39]: [L3 Warning fixed-without-extpos] Fixed expression '8. f' does not have the 'ExtPos' feature
-[Line 863 Sent it_partut-ud-33 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'di per sé' does not have the 'ExtPos' feature
-[Line 863 Sent it_partut-ud-33 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'di'
-[Line 941 Sent it_partut-ud-34 Node 47]: [L3 Warning fixed-without-extpos] Fixed expression 'come da' does not have the 'ExtPos' feature
-[Line 998 Sent it_partut-ud-35 Node 49]: [L3 Warning fixed-without-extpos] Fixed expression 'come da' does not have the 'ExtPos' feature
-[Line 1048 Sent it_partut-ud-36 Node 42]: [L3 Warning fixed-without-extpos] Fixed expression 'insieme ad' does not have the 'ExtPos' feature
-[Line 1243 Sent it_partut-ud-39 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'di per sé' does not have the 'ExtPos' feature
-[Line 1243 Sent it_partut-ud-39 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'di'
-[Line 1313 Sent it_partut-ud-41 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'salvo che' does not have the 'ExtPos' feature
-[Line 1643 Sent it_partut-ud-50 Node 59]: [L3 Warning fixed-without-extpos] Fixed expression '4. a' does not have the 'ExtPos' feature
-[Line 1646 Sent it_partut-ud-50 Node 62]: [L3 Warning fixed-without-extpos] Fixed expression '4. b' does not have the 'ExtPos' feature
-[Line 1649 Sent it_partut-ud-50 Node 65]: [L3 Warning fixed-without-extpos] Fixed expression '4. c' does not have the 'ExtPos' feature
+[Line 142 Sent it_partut-ud-10]: [L3 Warning fixed-without-extpos] Fixed expression '8. f' does not have the 'ExtPos' feature
+[Line 863 Sent it_partut-ud-33]: [L3 Warning fixed-without-extpos] Fixed expression 'di per sé' does not have the 'ExtPos' feature
+[Line 863 Sent it_partut-ud-33]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('di')
+[Line 941 Sent it_partut-ud-34]: [L3 Warning fixed-without-extpos] Fixed expression 'come da' does not have the 'ExtPos' feature
+[Line 998 Sent it_partut-ud-35]: [L3 Warning fixed-without-extpos] Fixed expression 'come da' does not have the 'ExtPos' feature
+[Line 1048 Sent it_partut-ud-36]: [L3 Warning fixed-without-extpos] Fixed expression 'insieme ad' does not have the 'ExtPos' feature
+[Line 1243 Sent it_partut-ud-39]: [L3 Warning fixed-without-extpos] Fixed expression 'di per sé' does not have the 'ExtPos' feature
+[Line 1243 Sent it_partut-ud-39]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('di')
+[Line 1313 Sent it_partut-ud-41]: [L3 Warning fixed-without-extpos] Fixed expression 'salvo che' does not have the 'ExtPos' feature
+[Line 1365 Sent it_partut-ud-42]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'uso') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1643 Sent it_partut-ud-50]: [L3 Warning fixed-without-extpos] Fixed expression '4. a' does not have the 'ExtPos' feature
+[Line 1646 Sent it_partut-ud-50]: [L3 Warning fixed-without-extpos] Fixed expression '4. b' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 7275 Sent it_partut-ud-236 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'di'
-[Line 45318 Sent it_partut-ud-1643 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'a'
+[Line 7275 Sent it_partut-ud-236]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('di')
+[Line 45318 Sent it_partut-ud-1643]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('a')
 Syntax errors: 4
-Warnings: 146
+Warnings: 150
 *** FAILED *** with 4 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
-(weight=0.256410256410256) * (score{size}=0.581582201144504) = 0.149123641319104
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.778378378378378) = 0.0598752598752599
-(TOTAL score=0.746495130455299) * (availability=1) * (validity=0.01) = 0.00746495130455299
+(weight=0.111111111111111) * (score{features}=0.9) = 0.1
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.9) = 0.1
+(weight=0.37037037037037) * (score{size}=0.581582201144504) = 0.215400815238705
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.794117647058823) = 0.0882352941176471
+(weight=0.111111111111111) * (score{udeprels}=0.778378378378378) = 0.0864864864864865
+(TOTAL score=0.633826299546543) * (availability=1) * (validity=0.01) = 0.00633826299546543
 STARS = 0
-UD_Italian-ParTUT	0.00746495130455299	0
+UD_Italian-ParTUT	0.00633826299546543	0
